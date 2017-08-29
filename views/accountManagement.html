@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>账号管理</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/accountManage.css">
+</head>
+<body>
+<!--头部-->
+<div class="header">
+	<div class="container clearfix">
+		<div class="left clearfix">
+			<a href=""></a>
+			<h4>导游精灵管理平台</h4>
+		</div>
+		<div class="right">
+			<span class="h-icon"></span>
+			<span class="hello">您好，刘颖</span>
+			<a href="#">退出</a>
+		</div>
+	</div>
+</div>
+<!--搜索项-->
+<div class="search">
+	<form>
+		<label>姓名 <input type="text"></label>
+		<label>导游编号 <input type="text"></label>
+		<label>星级
+			<select class="star">
+				<option value="无星">无星</option>
+				<option value="一星" selected="selected">一星</option>
+				<option value="二星">二星</option>
+			</select>
+		</label>
+		<label>账号状态
+			<select class="accountState">
+				<option value="已启用" selected="selected">已启用</option>
+				<option value="已停用">已停用</option>
+			</select>
+		</label>
+		<button>查询</button>
+	</form>
+</div>
+<!--列表-->
+<div class="panel panel-default accountList">
+	<div class="panel-heading title">
+		<ul class="clearfix">
+			<li class="col-md-1">序号</li>
+			<li class="col-md-1">姓名</li>
+			<li class="col-md-1">导游编号</li>
+			<li class="col-md-1">性别</li>
+			<li class="col-md-2">身份证号</li>
+			<li class="col-md-1">星级</li>
+			<li class="col-md-1">语种</li>
+			<li class="col-md-1">账号状态</li>
+			<li class="col-md-3">操作</li>
+		</ul>
+	</div>
+	<div class="panel-body centerList">
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+		<ul class="userList clearfix">
+			<li class="col-md-1">1</li>
+			<li class="col-md-1">张丽</li>
+			<li class="col-md-1">DY0012</li>
+			<li class="col-md-1">女</li>
+			<li class="col-md-2">21002930323454****</li>
+			<li class="col-md-1">一星</li>
+			<li class="col-md-1">英语</li>
+			<li class="col-md-1">停用</li>
+			<li class="col-md-3">
+				<a class="edit"></a>
+				<a class="del"></a>
+				<a class="reset"></a>
+			</li>
+		</ul>
+	</div>
+	<div class="footer">
+		<a href="">新增导游</a>
+		<a href="">列表导出</a>
+	</div>
+</div>
+</body>
+</html>

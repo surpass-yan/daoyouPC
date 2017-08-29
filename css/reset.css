@@ -1,0 +1,200 @@
+@charset "utf-8";
+*,
+::before,
+::after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+
+html,body,h1,h2,h3,h4,h5,h6,hr,img,p,blockquote,dl,dt,dd,th,td,ul,ol,li,button,input,textarea,select,button,form,fieldset,legend{
+	margin: 0;
+	padding: 0
+}
+
+body {
+	font: 12px/150% "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #fff;
+}
+
+/*浏览器差异，去掉蓝色边框*/
+fieldset, img, input, button {
+	border: none;
+	padding: 0;
+	margin: 0;
+	outline-style: none;
+}
+
+ul, ol,li {
+	list-style: none
+}
+
+/*统一input框的样式*/
+input {
+	padding-top: 0;
+	padding-bottom: 0;
+	font-family: "SimSun", "宋体";
+}
+/*去掉行内空白元素缝隙*/
+img {
+	border: 0;
+	vertical-align: middle;
+}
+
+select, input, button {
+	vertical-align: middle;
+}
+
+/*防止拖动 影响布局*/
+textarea {
+	resize: none;
+}
+
+a {
+	text-decoration: none;
+	background-color: transparent
+}
+
+a:hover, a:active {
+	outline-width: 0;
+	text-decoration: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+img:not([src]) {
+	display: none
+}
+
+s, i, em {
+	font-style: normal;
+	text-decoration: none;
+}
+
+svg:not(:root) {
+	overflow: hidden
+}
+
+html {
+	-webkit-touch-callout: none;
+	-webkit-text-size-adjust: 100%
+}
+
+input, textarea, button, a {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+	display: block
+}
+
+audio, canvas, progress, video {
+	display: inline-block
+}
+
+/* audio:not([controls]), video:not([controls]) {
+	display: none;
+	height: 0
+} */
+
+progress {
+	vertical-align: baseline
+}
+
+mark {
+	background-color: #ff0;
+	color: #000
+}
+
+/* sub, sup {
+	position: relative;
+	font-size: 75%;
+	line-height: 0;
+	vertical-align: baseline
+} */
+
+/* sub {
+	bottom: -0.25em
+}
+
+sup {
+	top: -0.5em
+} */
+
+button, input, select, textarea {
+	/* font-size: 100%; */
+	outline: 0
+}
+
+button, input {
+	overflow: visible
+}
+
+button, select {
+	text-transform: none
+}
+
+textarea {
+	overflow: auto;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+button, html [type="button"], [type="reset"], [type="submit"] {
+	-webkit-appearance: button
+}
+
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+	border-style: none;
+	padding: 0
+}
+
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+	outline: 1px dotted ButtonText
+}
+
+[type="checkbox"], [type="radio"] {
+	box-sizing: border-box;
+	padding: 0
+}
+
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+	height: auto
+}
+
+[type="search"] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px
+}
+
+[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none
+}
+
+::-webkit-input-placeholder {
+	color: inherit;
+	opacity: .54
+}
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit
+}
+
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+	clear: both;
+}
+
+

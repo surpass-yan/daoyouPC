@@ -1,0 +1,123 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.main {
+    position: relative;
+    background: url("../images/index/indexBG.png");
+    background-size: 100% 100%;
+    -webkit-background-size:100% 100%;
+    .logo {
+        position: absolute;
+        top: 42px;
+        left: 60px;
+        width: 343px;
+        height: 62px;
+        img {
+            float: left;
+            display:block;
+            margin-right: 20px;
+            width: 61px;
+            height: 61px;
+            border-radius: 8px;
+        }
+        .right {
+            float: right;
+            width: 262px;
+            height: 61px;
+            line-height: 61px;
+            h3 {
+                margin-top:-10px;
+                height: 40px;
+                font-size: 32px;
+                color: #fff;
+            }
+            p {
+                margin-top: -12px;
+                height: 21px;
+                font-size: 16px;
+                color: #fff;
+            }
+        }
+    }
+    .enter{
+        position: absolute;
+        padding: 9px 10px 8px 12px;
+        top: 155px;
+        right: 195px;
+        width: 310px;
+        height: 370px;
+        text-align: center;
+        border-radius: 4px;
+        background-color: rgba(239,240,243,.3);
+        .inner{
+            width: 286px;
+            height: 350px;
+            padding: 39px 48px 52px 55px;
+            background: #fff;
+            border-radius: 4px;
+        }
+        h6{
+            margin-top: -23px;
+            line-height:49px;
+            font-size: 26px;
+            color: #5474e9;
+        }
+        form{
+            margin: -20px 0 0 -20px;
+        }
+        .account,.keyword{
+            width: 225px;
+            height: 45px;
+            border: 1px solid #5474e9;
+            border-radius: 5px;
+            text-indent: 40px;
+            font-size: 18px;
+            color: #5474e9;
+        }
+        .account{
+            margin-top: 35px;
+            background: url("../images/index/account.png") no-repeat 4% 54%;
+            background-size: 18px 20px;
+            -webkit-background-size: 18px 20px;
+        }
+        .keyword{
+            margin-top: 33px;
+            background: url("../images/index/keyword.png") no-repeat 4% 54%;
+            background-size: 18px 22px;
+            -webkit-background-size: 18px 22px;
+        }
+        p{
+            margin-top: 14px;
+            line-height: 18px;
+            text-align: left;
+            .remember{
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                border: 1px solid #5474e9;
+                border-radius: 3px;
+                vertical-align: bottom;
+                //background: url("../images/index/tick.png") no-repeat center;
+            }
+            span{
+                display: inline-block;
+                font-size: 16px;
+                color: #5474e9;
+            }
+        }
+        a{
+            display: inline-block;
+            margin-top: 29px;
+            width: 225px;
+            height: 45px;
+            line-height: 45px;
+            background: #5474e9;
+            font-size: 20px;
+            text-align: center;
+            color: #fff;
+            border-radius: 5px;
+        }
+    }
+}
